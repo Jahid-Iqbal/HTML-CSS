@@ -1,0 +1,38 @@
+body
+{
+	padding-left: 450px;
+	padding-top: 200px;
+}
+
+form
+{
+
+	background: #f1f1f1;
+	align-content: center;
+	width: 600px;
+
+
+}
+
+ul
+{
+	list-style: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+li
+{
+	padding-top: 10px;
+}
+
+/*#button
+{
+	letter-spacing: 5px;				space between the letter in a word
+	text-transform: uppercase;			text can be transformed to upper/lowercase
+	text-shadow: 2px 5px 5px black;		text shadow : x-axis y-axis how-much-blur shadow-color;
+
+	
+}
+*/
