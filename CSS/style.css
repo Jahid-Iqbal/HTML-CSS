@@ -1,0 +1,47 @@
+a
+{
+	color: red;
+}
+
+h1
+{
+	color: blue;
+	font-family: sans-serif;
+}
+
+div
+{
+	margin: auto;
+	width: 600px;
+	background: green;
+	text-align: center;
+}
+
+ul
+{
+	background: red;
+}
+
+/*# is used to define a ID*/
+
+#AAA
+{
+	color: green;
+}
+
+/*. is used to define a class*/
+
+.BBB
+{
+	color: yellow;
+}
+
+/*When we have multiple command with same name like li the we can use nth-child to define a specific one*/
+
+ul:first-of-type li:nth-child(3)
+{
+	color: violet;
+}
+
+/*The "ID","CLASS" and "nth-child" all of them are used to define specific code. We can use any of them to do so.*/
+/*"first-of-type" is used to determine the first ul. We also can use ID or Class to do so.*/

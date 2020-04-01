@@ -1,0 +1,68 @@
+.wrap   /* determine trhe whole page */
+{
+	background: red;
+	margin: auto;
+	width: 80%;
+	min-width: 500px;
+	height: 100%;
+	overflow: hidden;  /*close all gaps between the wrap and content*/
+}
+
+.content  /*determinr the content part*/
+{
+	background: green;
+	float: left;			/*take the left side of the wrap window*/
+	width: 70%;
+}
+
+.content h1
+{
+	border: 1px solid white;		/* the heading will be surronded by a box */
+}
+
+aside
+{
+	background: violet;
+	float: left;
+	margin: auto;
+	padding-left:0px; 
+	width: 30%;
+
+}
+
+aside ul
+{
+	list-style: none;                    	
+	padding-left: 15px;
+}
+
+.content, aside
+{
+	height: 500px;
+}
+
+/*Navigation */
+
+aside li
+{
+	padding-top: 10px;
+	/*display: inline;                The content will be shown in  a row    */
+	
+}
+
+aside ul a
+{
+	text-decoration: none;
+
+}
+
+/*when we place the cursor*/
+
+aside ul a:hover
+{
+	text-decoration: underline;
+	color: green;
+
+
+}
+
